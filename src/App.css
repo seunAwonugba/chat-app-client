@@ -1,0 +1,46 @@
+.App {
+    /* display: flex;
+    align-items: center; */
+    /* justify-content: center; */
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+}
+
+.messages-container {
+    width: 100%;
+    height: 80vh;
+    background-color: red;
+}
+
+.messages {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.messages > li {
+    padding: 0.5rem 1rem;
+}
+
+.messages > li:nth-child(odd) {
+    background: #efefef;
+}
+
+.form {
+    width: 100%;
+    height: 10vh;
+    padding-top: 10px;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.button {
+    margin-left: 10px;
+}
